@@ -1,11 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-
+import Texto from './src/Texto'
+import Input from './src/Input'
+import Perfil from './src/Imagem'
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+       {/* componente de image importado*/}
+      <Perfil></Perfil>
+      {/* componente de texto */}
+      <Texto></Texto>
+      {/* componente de input*/}
+      <Input></Input>
     </View>
   );
 }
