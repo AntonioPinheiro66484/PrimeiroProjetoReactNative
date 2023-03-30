@@ -8,7 +8,7 @@ const gerarNumeroAleatorio=()=>{
     var numero_aleatorio3= Math.random();
     var numero_aleatorio4= Math.random();
 
-    numero_aleatorio = Math.floor(numero_aleatorio*50)
+    numero_aleatorio  = Math.floor(numero_aleatorio*50)
     numero_aleatorio1 = Math.floor(numero_aleatorio1*50)
     numero_aleatorio2 = Math.floor(numero_aleatorio2*50)
     numero_aleatorio3 = Math.floor(numero_aleatorio3*50)
